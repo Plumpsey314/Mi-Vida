@@ -1,3 +1,4 @@
+/*Main page heading */
 h1 {
   color: #dc5;
   font-size: 300%;
@@ -6,21 +7,19 @@ h1 {
   border-bottom: #f52 double 6px;
   text-align: center;
 }
-h2{
+
+/*Blog article*/
+h2 {
   color: #000;
   text-align: center;
 }
-p{
+
+p {
   color: #000;
   font-style: normal;
 }
-.singlearticle{
-  text-decoration: none;
-}
-button{
-  border: 10px solid #fff;
-  background-color: #fff;
-}
+
+/*Blog links */
 .container {
   padding-left: 60px;
   padding-right: 60px;
@@ -31,11 +30,6 @@ button{
   grid-template-areas:
     "one two"
     "nav nav";
-}
-.content{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 #article-name-one {
@@ -59,6 +53,20 @@ button{
   height: 300px;
 }
 
+/*blog link style*/
+button {
+  border: 10px solid #fff;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*popular posts css*/
 .popular {
   grid-area: nav;
   display: flex;
