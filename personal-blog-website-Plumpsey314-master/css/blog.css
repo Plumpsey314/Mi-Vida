@@ -7,10 +7,19 @@ h1 {
   text-align: center;
 }
 h2{
+  color: #000;
   text-align: center;
 }
+p{
+  color: #000;
+  font-style: normal;
+}
+.singlearticle{
+  text-decoration: none;
+}
 button{
-  background-color: #eed;
+  border: 10px solid #fff;
+  background-color: #fff;
 }
 .container {
   padding-left: 60px;
@@ -22,6 +31,11 @@ button{
   grid-template-areas:
     "one two"
     "nav nav";
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #article-name-one {
