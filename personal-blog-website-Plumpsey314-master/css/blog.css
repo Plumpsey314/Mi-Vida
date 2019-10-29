@@ -20,17 +20,6 @@ p {
 }
 
 /*Blog links */
-.container {
-  padding-left: 60px;
-  padding-right: 60px;
-  display: grid;
-  grid-gap: 75px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 300px) 30px;
-  grid-template-areas:
-    "one two"
-    "nav nav";
-}
 
 #article-name-one {
   background-image: url(../images/leaf-background.jpg);
@@ -66,7 +55,7 @@ button {
   justify-content: space-around;
 }
 
-/*popular posts*/
+/*popular posts */
 .popular {
   grid-area: nav;
   display: flex;

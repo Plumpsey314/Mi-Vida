@@ -9,6 +9,17 @@
     body{
       background-color: #eed;
     }
+    .container {
+      padding-left: 60px;
+      padding-right: 60px;
+      display: grid;
+      grid-gap: 75px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(1, 300px) 30px;
+      grid-template-areas:
+        "one two"
+        "nav nav";
+    }
   </style>
 </head>
 
