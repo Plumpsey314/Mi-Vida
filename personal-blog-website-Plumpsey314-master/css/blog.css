@@ -1,42 +1,44 @@
-h1{
+h1 {
   text-align: center;
 }
-.container{
+
+.container {
   padding-left: 60px;
   padding-right: 60px;
   display: grid;
   grid-gap: 75px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 300px) 50px;
+  grid-template-rows: repeat(1, 300px) 30px;
   grid-template-areas:
-  "one two"
-  "nav nav";
+    "one two"
+    "nav nav";
 }
 
-#article-name-one{
+#article-name-one {
   grid-area: one;
   border: 2px solid #f0e;
   width: auto;
   height: 300px;
 }
-#article-name-two{
+
+#article-name-two {
   grid-area: two;
   border: 2px solid #f0e;
   width: auto;
   height: 300px;
 }
 
-
 .popular {
   grid-area: nav;
   border: 2px solid #444;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #english {
   order: 2;
+  padding-right: 200;
   border: 2px solid #9a6;
 }
 
