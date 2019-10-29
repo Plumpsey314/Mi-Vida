@@ -1,4 +1,9 @@
 h1 {
+  color: #dc5;
+  font-size: 300%;
+  font-family: "Lucida Calligraphy", cursive;
+  border-top: #f52 double 6px;
+  border-bottom: #f52 double 6px;
   text-align: center;
 }
 
@@ -15,15 +20,21 @@ h1 {
 }
 
 #article-name-one {
+  background-image: url(../images/leaf-background.jpg);
+  background-repeat: no-repeat;
   grid-area: one;
-  border: 2px solid #f0e;
+  background-color: #fff;
+  border: 2px solid #999;
   width: auto;
   height: 300px;
 }
 
 #article-name-two {
+  background-image: url(../images/leaf-background.jpg);
+  background-repeat: no-repeat;
   grid-area: two;
-  border: 2px solid #f0e;
+  background-color: #fff;
+  border: 2px solid #999;
   width: auto;
   height: 300px;
 }
