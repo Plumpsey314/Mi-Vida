@@ -64,6 +64,14 @@ button {
 }
 /*Blog Articles*/
 
+.container{
+  background-color: #cfe;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px 3px #608580;
+}
 
 h2 {
   background-image: url(../images/title-background.png);
