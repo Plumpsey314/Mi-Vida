@@ -4,8 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>Mi Vida/ My Life </title>
-  <link rel="stylesheet" href="css/blog.css">
+
   <style>
+    /*Main page heading */
+    h1 {
+      color: #dc5;
+      font-size: 300%;
+      font-family: "Lucida Calligraphy", cursive;
+      border-top: #f52 double 6px;
+      border-bottom: #f52 double 6px;
+      text-align: center;
+    }
+
+
+    /*blog link style*/
+    button {
+      border: 10px solid #f8f8f8;
+      text-decoration: none;
+      background-color: #f8f8f8;
+    }
+
     h2 {
       background-image: none;
       line-height: normal;
@@ -13,21 +31,302 @@
       color: #000;
       text-align: center;
     }
-    body{
+
+    body {
       background-color: #eed;
     }
+
+    /*Blog links */
     .container-grid {
       padding-left: 60px;
       padding-right: 60px;
       display: grid;
       grid-gap: 75px;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: repeat(1, 300px) 30px;
-      grid-template-areas:
-        "one two"
-        "nav nav";
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+    #article-name-one {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
     }
 
+    #article-name-two {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-three{
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-four{
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-five{
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-six{
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-seven {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-eight {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-nine {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-ten {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-eleven {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+    #article-name-twelve {
+      background-image: url(images/leaf-background.jpg);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 2px solid #999;
+      width: auto;
+      height: 300px;
+    }
+
+
+    /*popular posts */
+    .popular {
+      grid-area: nav;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    #english {
+      order: 2;
+      border: 2px solid #9a6;
+    }
+
+    #spanish {
+      order: 1;
+      border: 2px solid #9a6;
+    }
+
+
+
+    /*@media queryies*/
+    @media(min-width:1000px) {
+      .container-grid {
+        padding-left: 60px;
+        padding-right: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, auto) 30px;
+        grid-gap: 75px;
+        grid-template-areas:
+          "one two"
+          "three four"
+          "five six"
+          "seven eight"
+          "nine ten"
+          "eleven twelve"
+          "nav nav";
+      }
+
+      #article-name-one {
+        grid-area: one;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+
+      #article-name-two {
+        grid-area: two;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-three {
+        grid-area: three;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-four {
+        grid-area: four;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-five {
+        grid-area: five;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-six {
+        grid-area: six;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-seven {
+        grid-area: seven;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-eight{
+        grid-area: eight;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-nine {
+        grid-area: nine;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-ten {
+        grid-area: ten;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-eleven {
+        grid-area: eleven;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+      #article-name-twelve {
+        grid-area: twelve;
+        background-image: url(images/leaf-background.jpg);
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        background-color: #fff;
+        border: 2px solid #999;
+        width: auto;
+        height: 300px;
+      }
+
+
+      .popular {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
   </style>
 </head>
 
@@ -36,17 +335,83 @@
     <h1>Mi Vida/My Life</h1>
   </header>
   <div class="container-grid">
-    <div id="article-name-one"><a href="article-one.html"><button><div class="content">
-    <h2> Mi Fin de Semana En San Sebatian</h2> <p>¡San Sebastian es la ciudad mas bonita en todo<br>
-    de España! Alguna vez me gustaría ir aya porque hay muchas <br>
-    cosas divertitas hacer.</p></div></button></a></div>
-    <div id="article-name-two"><a href="article-two.html"><button><div class="content">
-      <h2>This is a header </h2> <p>Decsription of article Decsription of article Decsription of article <br>
-      Decsription of articleDecsription of article</p></div></button></a></div>
+    <div id="article-name-one"><a href="article-one.html"><button>
 
+          <h2> Mi Fin de Semana En San Sebatian</h2>
+          <p>¡San Sebastian es la ciudad mas bonita en todo<br>
+            de España! Alguna vez me gustaría ir aya porque hay muchas <br>
+            cosas divertitas hacer.</p>
+
+        </button></a></div>
+    <div id="article-name-two"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more <br>than one answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-three"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-four"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-five"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-six"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-seven"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-eight"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-nine"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-ten"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-eleven"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
+    <div id="article-name-twelve"><a href="article-two.html"><button>
+          <h2> Imposible Math Problem </h2>
+          <p> I bet you can not find what is wrong with this math problem!
+            <br>This Geometry problem looks tricky or it may look like it has more than one<br> answer, but in reality,
+            it is imposible! Click here to see why. </p>
+        </button></a></div>
     <div class="popular">
-        <div id="english"><a href="abcd">Top english reflections</a></div>
-        <div id="spanish"><a href="abecede">Los documentos en español mas populàr</a></div>
+      <div id="english"><a href="abcd">Top english reflections</a></div>
+      <div id="spanish"><a href="abecede">Los documentos en español mas populàr</a></div>
     </div>
   </div>
 </body>
