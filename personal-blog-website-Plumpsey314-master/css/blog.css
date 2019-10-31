@@ -8,17 +8,6 @@ h1 {
   text-align: center;
 }
 
-/*Blog article*/
-h2 {
-  color: #000;
-  text-align: center;
-}
-
-p {
-  color: #000;
-  font-style: normal;
-}
-
 /*Blog links */
 
 #article-name-one {
@@ -44,9 +33,9 @@ p {
 
 /*blog link style*/
 button {
-  border: 10px solid #fff;
+  border: 10px solid #f8f8f8;
   text-decoration: none;
-  background-color: #fff;
+  background-color: #f8f8f8;
 }
 
 .content {
@@ -72,4 +61,13 @@ button {
 #spanish {
   order: 1;
   border: 2px solid #9a6;
+}
+/*Blog Articles*/
+.container{
+  box-sizing: 2px #888;
+}
+h2 {
+  background-image: url(../images/title-background.png);
+  line-height: 480%;
+  font-size: 400%;
 }
