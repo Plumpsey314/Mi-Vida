@@ -8,7 +8,6 @@ h1 {
   text-align: center;
 }
 
-
 /*blog link style*/
 button {
   border: 10px solid #f8f8f8;
@@ -37,9 +36,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
-.w3-card{
+
+.w3-card {
   background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   box-shadow: 3px 3px 3px #999;
@@ -67,8 +66,6 @@ body {
   border: 2px solid #9a6;
 }
 
-
-
 /*@media queryies*/
 @media(min-width:1000px) {
   .container-grid {
@@ -88,7 +85,7 @@ body {
       "nav nav";
   }
 
-  .w3-card{
+  .w3-card {
     width: auto;
     height: 300px;
   }
