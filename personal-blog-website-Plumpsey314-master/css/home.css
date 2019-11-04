@@ -302,7 +302,7 @@ body {
   }
   #article-name-twelve {
     grid-area: twelve;
-    background-image: url(images/leaf-background.jpg);
+    background-image: url(../images/leaf-background.jpg);
     background-repeat: no-repeat;
     padding-left: 20px;
     background-color: #fff;
