@@ -39,116 +39,15 @@ body {
   justify-content: space-between;
 
 }
-#article-name-one {
+.w3-card{
   background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px #999;
   padding-left: 20px;
   background-color: #fff;
-  border: 2px solid #999;
   width: auto;
   height: 300px;
 }
-
-#article-name-two {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-three{
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-four{
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-five{
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-six{
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-seven {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-eight {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-nine {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-ten {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-eleven {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-twelve {
-  background-image: url(../images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-
 
 /*popular posts */
 .popular {
@@ -189,56 +88,10 @@ body {
       "nav nav";
   }
 
-  #article-name-one {
+  .w3-card{
     width: auto;
     height: 300px;
   }
-
-  #article-name-two {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-three {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-four {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-five {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-six {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-seven {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-eight{
-    width: auto;
-    height: 300px;
-  }
-  #article-name-nine {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-ten {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-eleven {
-    width: auto;
-    height: 300px;
-  }
-  #article-name-twelve {
-    width: auto;
-    height: 300px;
-  }
-
 
   .popular {
     grid-area: nav;
