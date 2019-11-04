@@ -39,116 +39,15 @@ body {
   justify-content: space-between;
 
 }
-#article-name-one {
-  background-image: url(images/leaf-background.jpg);
+.w3-card{
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px #999;
   padding-left: 20px;
   background-color: #fff;
-  border: 2px solid #999;
   width: auto;
   height: 300px;
 }
-
-#article-name-two {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-three{
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-four{
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-five{
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-six{
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-seven {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-eight {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-nine {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-ten {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-eleven {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-#article-name-twelve {
-  background-image: url(images/leaf-background.jpg);
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  background-color: #fff;
-  border: 2px solid #999;
-  width: auto;
-  height: 300px;
-}
-
 
 /*popular posts */
 .popular {
@@ -189,128 +88,10 @@ body {
       "nav nav";
   }
 
-  #article-name-one {
-    grid-area: one;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
+  .w3-card{
     width: auto;
     height: 300px;
   }
-
-  #article-name-two {
-    grid-area: two;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-three {
-    grid-area: three;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-four {
-    grid-area: four;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-five {
-    grid-area: five;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-six {
-    grid-area: six;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-seven {
-    grid-area: seven;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-eight{
-    grid-area: eight;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-nine {
-    grid-area: nine;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-ten {
-    grid-area: ten;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-eleven {
-    grid-area: eleven;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-  #article-name-twelve {
-    grid-area: twelve;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
-    width: auto;
-    height: 300px;
-  }
-
 
   .popular {
     grid-area: nav;
