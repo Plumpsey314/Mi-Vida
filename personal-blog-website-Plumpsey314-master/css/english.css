@@ -26,12 +26,15 @@ a{
   font-size: 150%;
 }
 p{
-
+  text-indent: 40px;
   line-height: 250%;
   font-size: 12px;
 }
 .indent{
-  text-indent: 40px;
+  text-indent: -40px;
+}
+pre{
+  font-family: sans-serif;
 }
 
 /*media queries*/
