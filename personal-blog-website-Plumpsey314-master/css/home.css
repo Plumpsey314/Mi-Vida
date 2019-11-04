@@ -40,7 +40,7 @@ body {
 
 }
 #article-name-one {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -50,7 +50,7 @@ body {
 }
 
 #article-name-two {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -59,7 +59,7 @@ body {
   height: 300px;
 }
 #article-name-three{
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -68,7 +68,7 @@ body {
   height: 300px;
 }
 #article-name-four{
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -77,7 +77,7 @@ body {
   height: 300px;
 }
 #article-name-five{
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -86,7 +86,7 @@ body {
   height: 300px;
 }
 #article-name-six{
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -95,7 +95,7 @@ body {
   height: 300px;
 }
 #article-name-seven {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -104,7 +104,7 @@ body {
   height: 300px;
 }
 #article-name-eight {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -113,7 +113,7 @@ body {
   height: 300px;
 }
 #article-name-nine {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -122,7 +122,7 @@ body {
   height: 300px;
 }
 #article-name-ten {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -131,7 +131,7 @@ body {
   height: 300px;
 }
 #article-name-eleven {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -140,7 +140,7 @@ body {
   height: 300px;
 }
 #article-name-twelve {
-  background-image: url(images/leaf-background.jpg);
+  background-image: url(../images/leaf-background.jpg);
   background-repeat: no-repeat;
   padding-left: 20px;
   background-color: #fff;
@@ -190,123 +190,51 @@ body {
   }
 
   #article-name-one {
-    grid-area: one;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
 
   #article-name-two {
-    grid-area: two;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-three {
-    grid-area: three;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-four {
-    grid-area: four;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-five {
-    grid-area: five;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-six {
-    grid-area: six;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-seven {
-    grid-area: seven;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-eight{
-    grid-area: eight;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-nine {
-    grid-area: nine;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-ten {
-    grid-area: ten;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-eleven {
-    grid-area: eleven;
-    background-image: url(images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
   #article-name-twelve {
-    grid-area: twelve;
-    background-image: url(../images/leaf-background.jpg);
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 2px solid #999;
     width: auto;
     height: 300px;
   }
