@@ -50,6 +50,7 @@ body {
 
 /*popular posts */
 .popular {
+  height: 300px;
   grid-area: nav;
   display: flex;
   flex-direction: column;
